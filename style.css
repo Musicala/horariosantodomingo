@@ -1,0 +1,94 @@
+/* General */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.header {
+    background: #1E88E5;
+    color: white;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 130px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Tabla */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #1565C0;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+th:first-child, td:first-child {
+    position: sticky;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid #444;
+    padding: 10px;
+    min-width: 80px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+/* Columna del día actual */
+.dia-actual {
+    background-color: #eee69d !important;
+    font-weight: bold;
+}
+
+/* Filas alternas y efecto hover */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e3f2fd;
+    transition: background-color 0.2s ease-in-out;
+}
